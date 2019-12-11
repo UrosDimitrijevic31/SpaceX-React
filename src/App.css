@@ -1,6 +1,17 @@
 .App {
   text-align: center;
 }
+header{
+  background-color: #bad9ca;
+}
+
+footer{
+  background-color: darksalmon;
+}
+
+launchlist{
+  background-color: chartreuse;
+}
 
 .App-logo {
   height: 40vmin;
