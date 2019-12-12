@@ -17,11 +17,10 @@ const Header = (props) => {
     }, []);
 
     return (
-     
         <header>
             <h1>{data.name}</h1>
-            <p>Founder: {data.founder}</p>
-            <p>CEO: {data.ceo}</p>
+            <div>Founder: {data.founder}</div>
+            <div>CEO: {data.ceo}</div>
         </header>
     )
 }
