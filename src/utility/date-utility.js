@@ -7,7 +7,7 @@ export function fillYearsToArray(){
     let years=[];
     
     let dateNow= new Date();
-    for(let i=2000; i<=dateNow.getFullYear();i++){
+    for(let i=2006; i<=dateNow.getFullYear();i++){
         years.push(i);
     }
     return years;

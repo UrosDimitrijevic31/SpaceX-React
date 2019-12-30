@@ -1,7 +1,6 @@
 html, body, #root, .App{
   margin: 0px;
   padding: 0px;
- 
 }
 
 .App {
@@ -10,7 +9,6 @@ html, body, #root, .App{
 }
 
 header{
-  height: 70px;
   background-color: black;
   color: white;
   padding: 15px;
@@ -19,9 +17,10 @@ header{
 header h1 {
   font-size: 50px;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 0px;
   float: left;
   padding-left: 200px;
+  
 }
 header div{
   text-align: right;
@@ -30,15 +29,14 @@ header div{
 
 }
 
-
-
 main{
   padding: 15px;
   background-color: Gainsboro ;
+  min-height: 75vh;
 }
 
 .mySlides.img{
-  width: 100%;
+  width: 100%
 }
 
 
@@ -52,14 +50,11 @@ footer{
 }
 
 launch{
-  display: block;
+  display: block; 
   text-align: left;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  margin: 10px;
+  border-bottom: 1px solid black;
+  font-size: 25px;
 }
 
 .App-header {
@@ -77,13 +72,10 @@ launch{
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mission_logo{
+  width: 80px;
+  height: 80px;
 }
+
 
 

@@ -9,7 +9,6 @@ const Content = () => {
         <div>
             <Header />
             <main>
-            
                 <Router>
                     <p><Link to={'/'}>Past Lonches</Link></p>
                     <p><Link to ={'/future'}>Upcoming Lonches</Link></p>
